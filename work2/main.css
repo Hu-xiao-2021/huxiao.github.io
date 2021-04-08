@@ -1,0 +1,124 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(89, 140, 163);
+}
+#webInfoBar{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+}
+#webInfoBar #logo{
+    height: 100px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#webInfoBar #title{
+    font-size: 38px;
+    font-weight: bold;
+    margin-left: 200px;
+}
+
+#navigationBar{
+    height: 60px;
+    display: flex;
+}
+#navigationBar .navigationBtn{
+    background-color: rgb(0, 247, 255);
+    height: 60px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+#navigationBar .navigationBtn:hover{
+    font-size: 24px;
+    color: white;
+}
+
+main{
+    height: 500px;
+}
+main .page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.page .halfPage{
+    width: 50%;
+    height: 50;
+    display: flex;
+    flex-direction: column;
+    background-color: #00968861;
+}
+.halfPage h2{
+    margin:20px 10px;
+}
+.halfPage h3{
+    margin:20px 20px;
+}
+.halfPage div{
+    text-indent: 2rem;
+    margin: 20px 0;
+}
+footer{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 12px;
+    background-color: #aaa;
+}
+
+h1 {
+	color: blue; 
+	font-size: 140%;
+}
+h2 {
+	font-size: 115%;
+}
+
+.line{
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.line p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#gpa{
+    font-size: 40px;
+    margin-top: 50px;
+    margin: 0 auto;
+    color:red;
+    font-weight: bold;
+}
+#calculationBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+}
+#calculateBtn{
+    margin: 30px auto;
+    height: 60px;
+    width: 90px;
+    font-size: 18px;
+    background-color: #fff;
+    color: rgb(117, 195, 214);
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
